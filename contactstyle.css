@@ -1,0 +1,56 @@
+body {
+    background-color: #9fc4fb
+}
+
+.container-fluid {
+    background-color: #f7f8f4;
+}
+
+.msg-form {
+    background-color: rgb(221, 213, 213);
+    padding: 20px
+}
+
+.pad-icon {
+    padding-top: 50px;
+    padding-left: 20px
+}
+.input-group input:focus {
+    border: 1px solid rgb(121, 121, 122)
+}
+
+.pad-icon a:active {
+    height: 30px;
+    width: 30px;
+    background-color: #919192;
+    border-radius: 100%
+}
+
+.links {
+    padding-top: 50px;
+    width: 50%
+}
+
+#bordering a:active {
+    border: 1px solid #919192;
+}
+@media(min-width:568px) {
+    .container-fluid {
+        margin: 100px 30px;
+        width: 60%;
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+}
+
+@media(max-width:567px) {
+    .container-fluid {
+        margin: 2px 2px;
+        width: 60%;
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+    .pad {
+        padding-top: 20px
+    }
+}
